@@ -1,4 +1,4 @@
 function getFirstSelector(selector) {
-  var new = document.querySelectorAll('main');
+  var new = document.querySelector('main');
   return new;
 }
