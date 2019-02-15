@@ -11,5 +11,5 @@ function increaseRankBy(n) {
   }
 }
 function deepestChild() {
-  return document.querySelector('div#grand-node').querySelectorAll('div').innerHTML;
+  return document.querySelectorAll('div#grand-node div').innerHTML;
 }
